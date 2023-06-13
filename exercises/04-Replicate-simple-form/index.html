@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>4Geeks Academy</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>4Geeks Academy</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-</head>
-
-<body>
-    <form>
-        <!-- your code here -->
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Value</th>
-            </tr>
-            <tr>
-                <td>Name</td>
-                <td><input type="text" class="form-control" aria-label="First name" /></td>
-            </tr>
-            <tr>
-                <td>Sex</td>
-                <td>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                        <label class="form-check-label" for="flexRadioDefault1"> Male </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                            checked />
-                        <label class="form-check-label" for="flexRadioDefault2"> Female </label>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>Eye color</td>
-                <td>
-                    <label for="inputState" class="form-label"> choose </label>
-                    <select id="inputState" class="form-select">
-                        <option selected>green</option>
-                        <option>brown</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>Check all that apply</td>
-                <td>
-                    <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                    </div>
-                    <div><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>Describe your athletic ability:</td>
-            </tr>
-            <tr>
-                <td><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></td>
-            </tr>
-        </table>
-    </form>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-</body>
-
+	<body>
+		<form>
+			<!-- your code here -->
+			<table border="1">
+				<tr>
+					<th>Name</th>
+					<th>Value</th>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" class="form-control" aria-label="First name" /></td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+							<label class="form-check-label" for="flexRadioDefault1"> Male </label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+							<label class="form-check-label" for="flexRadioDefault2"> Female </label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>Eye color</td>
+					<td>
+						<label for="inputState" class="form-label"> choose </label>
+						<select id="inputState" class="form-select">
+							<option selected>green</option>
+							<option>brown</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Check all that apply</td>
+					<td>
+						<div>
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+							<label class="form-check-label" for="flexCheckDefault">Over 6 feet tall</label>
+						</div>
+						<div>
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+							<label class="form-check-label" for="flexCheckDefault">Over 200 pounds</label>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">Describe your athletic ability:</td>
+				</tr>
+				<tr>
+					<td colspan="3"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button type="button" class="btn btn-secondary">Enter my information</button></td>
+				</tr>
+			</table>
+		</form>
+	</body>
 </html>
